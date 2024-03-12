@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-
+/*
         Student[] students = StudentAlocator.createStudents(100);
         System.out.println(Arrays.toString(students));
 
@@ -22,6 +22,7 @@ public class Main {
         System.out.println(Arrays.toString(trecuti));
         System.out.println(math.isStudentPassing(10));
         System.out.println(math.isStudentPassing(math.chooseStudentRandomly()));
+  */
         new DummyCalculator().calculate(args);
         }
     }
