@@ -9,7 +9,7 @@ public class PayCash  extends Tranzactie{
     @Override
     public String toString() {
         return "Task3.PayCash{" +
-                "sumaTransferata=" + sumaTransferata +
+                "sumaTransferata=" + pret +
                 ", data='" + data + '\'' +
                 ", client=" + client +
                 ", trimis=" + trimis +

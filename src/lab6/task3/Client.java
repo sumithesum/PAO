@@ -5,16 +5,35 @@ public class Client {
     private Double sumaCont;
     private String payMethod;
 
-    public Client(String nume, Double sumaCont, String payMethod) {
-        this.nume = nume;
-        this.sumaCont = sumaCont;
-        this.payMethod = payMethod;
+    private Client(Builder builder) {
+        this.nume = builder.nume;
+        this.sumaCont = builder.sumaCont;
+        this.payMethod = builder.payMethod;
     }
 
-    public Client(String nume, Double sumaCont) {
-        this.nume = nume;
-        this.sumaCont = sumaCont;
-        this.payMethod = "Aleatoriu";
+    public static class Builder {
+        private String nume;
+        private Double sumaCont;
+        private String payMethod;
+
+        public Builder setNume(String nume) {
+            this.nume = nume;
+            return this;
+        }
+
+        public Builder setSumaCont(Double sumaCont) {
+            this.sumaCont = sumaCont;
+            return this;
+        }
+
+        public Builder setPayMethod(String payMethod) {
+            this.payMethod = payMethod;
+            return this;
+        }
+
+        public Client build() {
+            return new Client(this);
+        }
     }
 
     public boolean getSumaCont(Double sumaTransferata)

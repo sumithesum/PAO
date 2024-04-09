@@ -8,7 +8,7 @@ public class PayCard extends Tranzactie{
     @Override
     public String toString() {
         return "Task3.PayCard{" +
-                "sumaTransferata=" + sumaTransferata +
+                "sumaTransferata=" + pret +
                 ", data='" + data + '\'' +
                 ", client=" + client +
                 ", trimis=" + trimis +

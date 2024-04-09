@@ -1,1 +1,9 @@
 Prezentat in clasa
+
+Smarter calculator - prototype + strategy
+
+CalculationRequest - strategy
+
+requestMapper - factory
+
+calculationResult - factory
