@@ -45,3 +45,6 @@ public class Task4Tests extends TaskTestsBase {
         assertExceptionMessage(() -> customContainer.getInstance(Object.class), "Cannot provide instance");
     }
 }
+
+
+/// Nu ma prind care e greseala al ultimul test
