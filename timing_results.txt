@@ -1,0 +1,16 @@
+Sequential, Size 10: 10500 ns
+Thread, Size 10: 12031800 ns
+ParallelStream, Size 10: 66516500 ns
+CompletableFuture, Size 10: 18305700 ns
+Sequential, Size 1000: 113200 ns
+Thread, Size 1000: 19198200 ns
+ParallelStream, Size 1000: 59912800 ns
+CompletableFuture, Size 1000: 4048700 ns
+Sequential, Size 10000: 326200 ns
+Thread, Size 10000: 75953900 ns
+ParallelStream, Size 10000: 20648600 ns
+CompletableFuture, Size 10000: 1130600 ns
+Sequential, Size 10000000: 15278200 ns
+Thread, Size 10000000: 14563783700 ns
+ParallelStream, Size 10000000: 14699700 ns
+CompletableFuture, Size 10000000: 716500 ns
